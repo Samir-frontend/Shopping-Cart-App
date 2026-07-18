@@ -1,182 +1,173 @@
-# 🛒 ShopEase - Shopping Cart App
+# 🛒 Shopping Cart App
 
-A modern and responsive Shopping Cart application built with **React.js** and **Context API**. This project demonstrates efficient state management, reusable component architecture, product filtering, searching, and dynamic cart functionality.
-
-
----
-
-# 🚀 Features
-
-- ✅ Modern Responsive UI
-- ✅ Hero Landing Section
-- ✅ Sticky Navigation Bar
-- ✅ Product Search
-- ✅ Category Filter
-- ✅ Product Cards
-- ✅ Add to Cart
-- ✅ Increase / Decrease Quantity
-- ✅ Remove Product
-- ✅ Live Cart Count
-- ✅ Automatic Total Price Calculation
-- ✅ Context API State Management
-- ✅ Component Based Architecture
-- ✅ Smooth Scroll Navigation
-- ✅ AOS Scroll Animations
-- ✅ Clean Folder Structure
+A modern, responsive, and interactive Shopping Cart application built using **React.js**. This project provides a smooth shopping experience with product browsing, searching, category filtering, and real-time cart management. Designed with a clean UI and responsive layout, it demonstrates practical React concepts and state management.
 
 ---
 
-# 🛠️ Tech Stack
+## 🌐 Live Demo
+
+🔗 **Live Website:**  
+https://samir-frontend.github.io/Shopping-Cart-App/
+
+---
+
+## 📸 Preview
+
+<img width="100%" alt="Shopping Cart App Preview" src="https://placehold.co/1200x650/1f2937/ffffff?text=Shopping+Cart+App">
+
+> Replace the above image with your project screenshot after uploading it.
+
+---
+
+## ✨ Features
+
+- 🛍️ Browse Products
+- 🔍 Live Product Search
+- 🗂️ Category Filtering
+- 🛒 Add to Cart
+- ➕ Increase / Decrease Quantity
+- ❌ Remove Items from Cart
+- 💰 Automatic Price Calculation
+- 📱 Fully Responsive Design
+- 🎨 Modern UI & Smooth Animations
+- 🔥 Toast Notifications
+- ⚡ Fast Performance with Vite
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
 
 - React.js
-- Vite
-- JavaScript (ES6)
-- Context API
-- HTML5
+- JavaScript (ES6+)
 - CSS3
-- AOS Animation Library
+- HTML5
+
+### Libraries
+
+- React Hot Toast
+- AOS (Animate On Scroll)
+
+### Build Tool
+
+- Vite
+
+### Version Control
+
+- Git
+- GitHub
+
+### Deployment
+
+- GitHub Pages
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```
-src/
+```bash
+Shopping-Cart-App/
 │
-├── assets/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── context/
+│   ├── data/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.jsx
+│   └── main.jsx
 │
-├── components/
-│   ├── Navbar.jsx
-│   ├── Hero.jsx
-│   ├── SearchBar.jsx
-│   ├── CategoryFilter.jsx
-│   ├── ProductCard.jsx
-│   ├── ProductList.jsx
-│   ├── Cart.jsx
-│   ├── CartItem.jsx
-│   └── Footer.jsx
-│
-├── context/
-│   └── CartContext.jsx
-│
-├── data/
-│   └── products.js
-│
-├── pages/
-│   └── Home.jsx
-│
-├── styles/
-│
-├── App.jsx
-├── main.jsx
-└── index.css
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
 ```
 
 ---
 
-# ⚙️ Installation
+## 🚀 Getting Started
 
-Clone the repository
-
-```bash
-git clone https://github.com/your-username/shopease.git
-```
-
-Move into the project folder
+### Clone Repository
 
 ```bash
-cd shopease
+git clone https://github.com/Samir-frontend/Shopping-Cart-App.git
 ```
 
-Install dependencies
+### Navigate to Project
+
+```bash
+cd Shopping-Cart-App
+```
+
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-Run the development server
+### Start Development Server
 
 ```bash
 npm run dev
 ```
 
-Open
+### Build for Production
 
+```bash
+npm run build
 ```
-http://localhost:5173
-```
 
 ---
 
-# 🧠 State Management
+## 📚 Concepts Practiced
 
-This project uses **React Context API** for global state management.
-
-Managed states include:
-
-- Shopping Cart
-- Cart Count
-- Product Quantity
-- Remove Items
-- Total Price Calculation
-
-The Context API eliminates prop drilling and provides a clean architecture for managing application state.
+- React Components
+- Props
+- Context API
+- State Management
+- Conditional Rendering
+- List Rendering
+- Event Handling
+- Search & Filtering Logic
+- Responsive Web Design
 
 ---
 
-# ✨ Key Functionalities
+## 🎯 Future Improvements
 
-### 🔍 Product Search
-
-Search products instantly by product name.
-
-### 🏷️ Category Filtering
-
-Filter products based on categories.
-
-### 🛒 Shopping Cart
-
-- Add products
-- Increase quantity
-- Decrease quantity
-- Remove products
-- Live total calculation
-
-### 📱 Responsive Design
-
-Optimized for:
-
-- Desktop
-- Tablet
-- Mobile
+- ❤️ Wishlist Feature
+- 👤 User Authentication
+- 💳 Checkout Page
+- 🌙 Dark Mode
+- 📦 Backend Integration
+- 💳 Payment Gateway
 
 ---
 
-# 📈 Future Improvements
-
-- User Authentication
-- Product Details Page
-- Wishlist
-- Checkout Page
-- Payment Gateway Integration
-- Dark Mode
-- Backend Integration
-- Database Support
-
----
-
-# 👨‍💻 Developed By
+## 👨‍💻 Developer
 
 **Samir Sheikh**
 
-Frontend Developer
+🌐 Portfolio  
+https://samir-frontend.github.io/portfolio-website/
+
+💼 LinkedIn  
+https://www.linkedin.com/in/samir-sheikh-5380bb369/
+
+🐙 GitHub  
+https://github.com/Samir-frontend
 
 ---
 
-# 📄 License
+## ⭐ Support
 
-This project is developed for educational and internship purposes.
+If you like this project, don't forget to **Star ⭐ the repository** and follow me on GitHub.
 
 ---
 
-⭐ If you like this project, don't forget to give it a Star.
+## 📄 License
+
+This project is developed for learning purposes and portfolio showcase.
