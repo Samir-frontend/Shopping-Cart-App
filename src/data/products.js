@@ -1,0 +1,68 @@
+const products = [
+  {
+    id: 1,
+    name: "Wireless Mouse",
+    category: "Electronics",
+    price: 799,
+    rating: 4.5,
+    image: "https://images.unsplash.com/photo-1527814050087-3793815479db?w=600&auto=format&fit=crop&q=80",
+  },
+  {
+    id: 2,
+    name: "Gaming Keyboard",
+    category: "Electronics",
+    price: 1499,
+    rating: 4.8,
+    image: "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=600&auto=format&fit=crop&q=80",
+  },
+  {
+    id: 3,
+    name: "Running Shoes",
+    category: "Fashion",
+    price: 2499,
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop&q=80",
+  },
+  {
+    id: 4,
+    name: "Smart Watch",
+    category: "Electronics",
+    price: 3999,
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80",
+  },
+  {
+    id: 5,
+    name: "Backpack",
+    category: "Accessories",
+    price: 1199,
+    rating: 4.3,
+    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop&q=80",
+  },
+  {
+    id: 6,
+    name: "Headphones",
+    category: "Electronics",
+    price: 1999,
+    rating: 4.6,
+    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=80",
+  },
+  {
+    id: 7,
+    name: "T-Shirt",
+    category: "Fashion",
+    price: 699,
+    rating: 4.2,
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop&q=80",
+  },
+  {
+    id: 8,
+    name: "Coffee Mug",
+    category: "Home",
+    price: 399,
+    rating: 4.4,
+    image: "https://images.unsplash.com/photo-1516390118834-21602d501886?w=500&auto=format&fit=crop&q=60",
+  },
+];
+
+export default products;

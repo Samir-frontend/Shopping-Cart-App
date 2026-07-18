@@ -1,0 +1,28 @@
+.footer{
+    margin-top:70px;
+    background:linear-gradient(135deg,#15803d,#22c55e);
+    color:white;
+    text-align:center;
+    padding:45px 20px;
+}
+
+.footer h2{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.footer p{
+    opacity:.9;
+}
+
+.footer-line{
+    width:120px;
+    height:3px;
+    background:white;
+    margin:22px auto;
+    border-radius:20px;
+}
+
+.footer h4{
+    font-weight:400;
+}
